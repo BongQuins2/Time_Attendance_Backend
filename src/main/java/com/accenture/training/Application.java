@@ -34,7 +34,7 @@ public class Application {
                 registry.addMapping(Constants.EMPSHIFT_REMOVE).allowedOrigins(Constants.LOCALHOST);
                 registry.addMapping(Constants.TIMETRACKER_VIEWALL).allowedOrigins(Constants.LOCALHOST);
                 registry.addMapping(Constants.TIMETRACKER_VIEWBYEMPLOYEE).allowedOrigins(Constants.LOCALHOST);
-                registry.addMapping(Constants.TIMETRACKER_VIEWBYEMPDATE).allowedOrigins(Constants.LOCALHOST);
+//                registry.addMapping(Constants.TIMETRACKER_VIEWBYEMPDATE).allowedOrigins(Constants.LOCALHOST);
                 registry.addMapping(Constants.LOGIN_VIEWALL).allowedOrigins(Constants.LOCALHOST);
                 registry.addMapping(Constants.LOGIN_UPDATE).allowedOrigins(Constants.LOCALHOST);
                 registry.addMapping(Constants.LOGIN_SAVE).allowedOrigins(Constants.LOCALHOST);

@@ -236,12 +236,11 @@ public class TimeandAttendanceEndpoint {
 		return timeTrackerViewRepository.findByempId(empId);
 	}
 
-	@RequestMapping(value = Constants.TIMETRACKER_VIEWBYEMPDATE, method = RequestMethod.GET)
-	public List<ViewTimeTracker> viewTimeTrackerByEmpDate(
-			@RequestParam int empId, @RequestParam String tt_date) {
-		return timeTrackerViewRepository.displayByEmpDateAttendance(empId,
-				tt_date);
-	}
+//	@RequestMapping(value = Constants.TIMETRACKER_VIEWBYEMPDATE, method = RequestMethod.GET)
+//	public List<ViewTimeTracker> viewTimeTrackerByEmpDate(
+//			@RequestParam String emp_username, @RequestParam String tt_date) {
+//		return timeTrackerViewRepository.displayByEmpDateAttendance(emp_username,tt_date);
+//	}
 
 	//modified
 	@RequestMapping(value = Constants.TIMETRACKER_SAVE, method = RequestMethod.POST)

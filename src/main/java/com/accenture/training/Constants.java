@@ -22,7 +22,7 @@ public class Constants {
 	public final static String EMPSHIFT_REMOVE = "/empshift/remove";
 	public final static String TIMETRACKER_VIEWALL = "/timetracker/viewall";
 	public final static String TIMETRACKER_VIEWBYEMPLOYEE = "/timetracker/viewByEmployee";
-	public final static String TIMETRACKER_VIEWBYEMPDATE = "/timetracker/viewByEmpDate";
+//	public final static String TIMETRACKER_VIEWBYEMPDATE = "/timetracker/viewByEmpDate";
 	public final static String TIMETRACKER_REMOVE = "/timetracker/remove";
 	public final static String LOGIN_VIEWALL = "/login/viewall";
 	public final static String LOGIN_UPDATE = "/login/update";

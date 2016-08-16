@@ -8,9 +8,7 @@ import com.accenture.training.data.ViewTimeTracker;
 
 public interface TimeTrackViewRepository extends Repository<ViewTimeTracker, String> {
 	//added
-	List<ViewTimeTracker> findByempId(long empId);
-	
-    List<ViewTimeTracker> findByttId(int ttId);
+	List<ViewTimeTracker> findByempId(int empId);	
 
     List<ViewTimeTracker> findAll();
 
